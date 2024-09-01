@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    background: url(./images/background.jpeg) no-repeat right/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+
+    ul {
+        font-family: sans-serif;
+        // 方便下面的元素设置border，否则高度不够
+        margin-bottom: 1.5rem;
+
+        li {
+            display: inline;
+            list-style: none;
+            border-bottom: 50px;
+
+            a {
+                margin: 5px;
+                text-decoration: none;
+                color: white;
+                font-weight: 500;
+                transition: 0.2s;
+            }
+
+            a:hover {
+                border-bottom: 2px solid green;
+            }
+        }
+    }
+}

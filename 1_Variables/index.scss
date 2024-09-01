@@ -1,0 +1,60 @@
+$main-color: rgba(123, 233, 31, 0.8);
+$img-center: no-repeat center/cover;
+$main-font:"Nerko One", cursive;
+
+// 导入谷歌字体
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+html,
+body {
+    background: linear-gradient(#a5aae9cc, #8c9af6);
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+    // 字体设置
+    font-family: $main-font;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.card {
+    background: $main-color;
+    padding: 20px;
+    line-height: 24px;
+    margin: 10px;
+    position: relative;
+    max-width: 400px;
+}
+
+.img {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    border: 5px solid white;
+    position: absolute;
+    right: -30px;
+    bottom: 110px;
+}
+
+.img-one {
+    background: url(./images/img1.jpg) $img-center;
+}
+
+.img-two {
+    background: url(./images/img2.jpeg) $img-center;
+}
+
+.img-three {
+    background: url(./images/img2.jpeg) $img-center;
+}
+
+.img-four {
+    background: url(./images/img1.jpg) $img-center;
+}

@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  background: url(./images/background.jpeg) no-repeat right/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.container ul {
+  font-family: sans-serif;
+  margin-bottom: 1.5rem;
+}
+.container ul li {
+  display: inline;
+  list-style: none;
+  border-bottom: 50px;
+}
+.container ul li a {
+  margin: 5px;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: 0.2s;
+}
+.container ul li a:hover {
+  border-bottom: 2px solid green;
+}/*# sourceMappingURL=index.css.map */

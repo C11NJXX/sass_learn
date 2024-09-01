@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Nerko+One&display=swap");
+html,
+body {
+  background: linear-gradient(rgba(165, 170, 233, 0.8), #8c9af6);
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-family: "Nerko One", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.card {
+  background: rgba(123, 233, 31, 0.8);
+  padding: 20px;
+  line-height: 24px;
+  margin: 10px;
+  position: relative;
+  max-width: 400px;
+}
+
+.img {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  border: 5px solid white;
+  position: absolute;
+  right: -30px;
+  bottom: 110px;
+}
+
+.img-one {
+  background: url(./images/img1.jpg) no-repeat center/cover;
+}
+
+.img-two {
+  background: url(./images/img2.jpeg) no-repeat center/cover;
+}
+
+.img-three {
+  background: url(./images/img2.jpeg) no-repeat center/cover;
+}
+
+.img-four {
+  background: url(./images/img1.jpg) no-repeat center/cover;
+}/*# sourceMappingURL=index.css.map */
